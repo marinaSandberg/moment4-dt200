@@ -134,6 +134,10 @@ nav {
     margin: 0px 20px 20px 20px;
 }
 
+video {
+    width: 50%;
+}
+
 #product1 {
     grid-row: 2;
     grid-column: 1;
