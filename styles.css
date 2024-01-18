@@ -134,9 +134,7 @@ nav {
     margin: 0px 20px 20px 20px;
 }
 
-video {
-    width: 50%;
-}
+c
 
 #product1 {
     grid-row: 2;
@@ -205,5 +203,44 @@ footer p {
     margin: 0;
 }
 
+@media screen and (min-width: 768px) {
+    #featured-products h1 {
+        grid-column: 1 /span 4;
+    }
+    #featured-products {
+        grid-column-gap: 10vw;
+    }
+
+    #products h1 {
+        grid-column: 1 /span 3;
+    }
+
+    #products {
+        grid-column-gap: 10vw;
+        grid-row-gap: 5vh;
+    }
+    
+    #product3 {
+        grid-row: 2;
+        grid-column: 3;
+    }
+    
+    #product4 {
+        grid-row: 2;
+        grid-column: 4;
+    }
+    #about {
+        margin-top: 10%;
+        padding: 5% 15% 5% 15%;
+    }
+
+    video {
+        width: 30vw;
+    }
+
+    .about-page p {
+        margin: 5vh 10vw 5vh 10vw;
+    }
+  }
 
 
