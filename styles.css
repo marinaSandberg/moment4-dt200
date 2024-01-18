@@ -134,8 +134,6 @@ nav {
     margin: 0px 20px 20px 20px;
 }
 
-c
-
 #product1 {
     grid-row: 2;
     grid-column: 1;
@@ -164,6 +162,10 @@ div {
     margin-top: 20px;
     padding: 20px;
     background-color: white;
+}
+
+video {
+    width: 200px;
 }
 
 button {
