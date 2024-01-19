@@ -246,7 +246,7 @@ footer p {
     }
 
     a h2:hover, #about button:hover{
-        scale: 1.2;
+        transform: scale(1.2);
         cursor: pointer;
     }
 
